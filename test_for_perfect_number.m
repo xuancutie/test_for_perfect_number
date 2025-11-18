@@ -17,7 +17,7 @@ array2 = n./array;
 
 array2new = array2( rem(array2,1) == 0 );
     % take whole numbers in array2
-    % create a whole number array called array2new
+    % put them into a new array called array2new
 
 sum2new = sum(array2new);
 sum2new = sum2new - n;
